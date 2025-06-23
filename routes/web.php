@@ -13,7 +13,7 @@ Route::get('/form', function () {
 
 Route::get('/dashboard', function () {
     return view('dashboard.dashboard');
-})->middleware('auth');
+});
 
 
 // ✅ Route GET untuk tampilkan halaman login
